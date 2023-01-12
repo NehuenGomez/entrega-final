@@ -19,6 +19,12 @@
 footer{
     background-color: orange;
 }
+
 .tarjeta{
     background-color: orange;
+}
+
+.btn{
+    background-color: orange;
+    border-color: black;
 }
