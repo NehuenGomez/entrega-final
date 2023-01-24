@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="./estilos/styles.css">
     <title>2M Mudanzas</title>
     <link rel="icon" href="./img/favicon.jfif">
 </head>
 <body class="bg-dark">
 <!-- navbar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar mb-3">
         <div class="container-fluid">
           <a class="navbar-brand active" aria-current="page" href="index.html">Inicio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +23,7 @@
                 <a class="nav-link" href="./pages/servicios.html">Servicios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Galeria</a>
+                <a class="nav-link" href="./pages/trabajos.html">Nuestros trabajos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Nosotros</a>
@@ -38,24 +38,29 @@
 <!-- navbar -->
 
 <!-- hero -->
-      <section class="hero d-flex justify-content-center flex-column p-3 m-2 bg-dark text-white bg-success bg-opacity-50 rounded">
-          <h2 class="">Quienes somos</h2>
-        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt eveniet laborum quibusdam omnis asperiores officiis veniam voluptatibus nemo rem cum doloribus, officia, suscipit vitae delectus a nulla! Architecto, ut perspiciatis.</p>
-      </section>
-<!-- hero -->
-
-<!-- tarjeta -->
-<section class="d-flex justify-content-center align-items-center">
-  <div class=" tarjeta card m-3 h-100" style="width: 18rem;">
-    <img src="./img/ubicacion.jpg" class="card-img-top" alt="ubicacion">
-    <div class="card-body">
-      <p class="card-text text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, doloremque nulla, alias sunt libero voluptates aut neque nobis commodi aperiam ipsam veniam! Accusantium aliquid omnis nihil eum, in tempora rerum!</p>
+<div class="hero container col-xxl-8 px-4 p-5 rounded-2">
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <img src="./img/imagen de fondo.jpg" class="d-block mx-lg-auto img-fluid" alt="2m mudanzas" width="700" height="500" loading="lazy">
+    </div>
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold lh-1 mb-3">Quiénes somos</h1>
+      <p class="lead">Somos un empresa que brinda el servicio de mudanzas, fletes, guardamuebles, entre otros. Contamos con maquinaria novedosa y moderna que nos ayuda a brindar un excelente servicio. Tratamos con personas exigentes que tienen mucho cariño y apego por sus muebles, por lo que necesitan un trato delicado a la hora de mudarse.</p>
     </div>
   </div>
-</section>
-<!-- tarjeta -->
-
-    <footer class="text-center text-black">
+</div>
+<!-- hero -->
+<!-- donde nos encontramos -->
+  <div class="card container-fluid mt-3">
+    <div class="card-body">
+      <h5 class="card-title">Dónde nos encontramos</h5>
+      <p class="card-text">No sólo realizamos servicios dentro de La Plata y Capital Federal, sino que también nos extendemos a cualquier localidad de la provincia o del país, preponderando un traslado seguro, económico y confiable. Respetando nuestra mecánica de trabajo, nuestros presupuestos son totalmente sin cargo y se pueden realizar mediante las distintas vías de comunicación que tiene la empresa.</p>
+    </div>
+    <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13082.719189208588!2d-57.9332254!3d-34.9395667!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1ed7365846669a1!2sMudanzas%20y%20Guardamuebles%202M!5e0!3m2!1ses!2sar!4v1670361692085!5m2!1ses!2sar" width="auto" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+<!-- donde nos encontramos -->
+<!-- footer -->
+    <footer class="text-center text-black mt-3">
         <div class="container p-4 pb-0">
           <!-- Section: redes sociales -->
           <section class="mb-4">
@@ -84,6 +89,7 @@
         </div>
         <!-- Copyright -->
       </footer>
+<!-- footer -->
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>

@@ -4,36 +4,8 @@
   box-sizing: border-box;
 }
 
-.navbar {
-  background-color: orange;
-}
-
 .hero {
-  background-image: url("/img/imagen de fondo.jpg");
-  background-color: black;
-  height: 90vh;
-  background-position: center;
-  background-size: cover;
-}
-
-.tarjeta {
   background-color: orange;
-}
-
-footer {
-  background-color: orange;
-}
-
-.navbar {
-  background-color: orange;
-}
-
-.hero {
-  background-image: url("/img/imagen de fondo.jpg");
-  background-color: black;
-  height: 90vh;
-  background-position: center;
-  background-size: cover;
 }
 
 .btn {
@@ -41,15 +13,14 @@ footer {
   border-color: black;
 }
 
+.card {
+  background-color: orange;
+}
+
 footer {
   background-color: orange;
 }
 
-.carrusel {
-  width: 100%;
-  height: 90vh;
-}
-
-.card {
+.navbar {
   background-color: orange;
 }/*# sourceMappingURL=styles.css.map */
